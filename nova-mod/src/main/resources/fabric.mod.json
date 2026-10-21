@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "nova",
+  "version": "${version}",
+  "name": "Nova",
+  "description": "Klientowy mod z modulami: Nametags, FastPlace, AutoKiller, Sprint, Fullbright + ClickGUI",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.nova.NovaClient"] },
+  "mixins": ["nova.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

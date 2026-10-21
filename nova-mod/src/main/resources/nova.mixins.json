@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.nova.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["LivingEntityRendererMixin", "MinecraftClientAccessor"],
+  "injectors": { "defaultRequire": 1 }
+}
